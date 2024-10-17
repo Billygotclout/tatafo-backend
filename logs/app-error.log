@@ -1,0 +1,17 @@
+[2024-10-17 08:34:23.743 AM] [31merror[39m: 	[31mjwt is not defined[39m
+[2024-10-17 08:35:09.087 AM] [31merror[39m: 	[31mInvalid Username or Password[39m
+[2024-10-17 08:46:03.638 AM] [31merror[39m: 	[31muserRepository is not defined[39m
+[2024-10-17 08:46:51.365 AM] [31merror[39m: 	[31muserService.passwordRecovery is not a function[39m
+[2024-10-17 08:47:40.949 AM] [31merror[39m: 	[31muserService.passwordRecovery is not a function[39m
+[2024-10-17 08:47:43.847 AM] [31merror[39m: 	[31muserService.passwordRecovery is not a function[39m
+[2024-10-17 08:48:16.645 AM] [31merror[39m: 	[31muserService.passwordRecovery is not a function[39m
+[2024-10-17 08:49:27.247 AM] [31merror[39m: 	[31msendMail is not defined[39m
+[2024-10-17 08:50:04.678 AM] [31merror[39m: 	[31mOperation `users.findOne()` buffering timed out after 10000ms[39m
+[2024-10-17 08:52:47.848 AM] [31merror[39m: 	[31mPassword reset token is invalid/Expired[39m
+[2024-10-17 08:53:42.586 AM] [31merror[39m: 	[31mPassword reset token is invalid/Expired[39m
+[2024-10-17 08:53:45.775 AM] [31merror[39m: 	[31mPassword reset token is invalid/Expired[39m
+[2024-10-17 08:54:29.847 AM] [31merror[39m: 	[31mPassword reset token is invalid/Expired[39m
+[2024-10-17 08:56:36.904 AM] [31merror[39m: 	[31mOperation `users.findOne()` buffering timed out after 10000ms[39m
+[2024-10-17 08:56:40.625 AM] [31merror[39m: 	[31mPassword reset token is invalid/Expired[39m
+[2024-10-17 08:58:01.553 AM] [31merror[39m: 	[31mOperation `users.findOne()` buffering timed out after 10000ms[39m
+[2024-10-17 08:58:14.310 AM] [31merror[39m: 	[31mPassword reset token has expired[39m
