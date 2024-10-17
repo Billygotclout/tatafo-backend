@@ -145,3 +145,107 @@
 [2024-10-17 08:58:14.310 AM] [31merror[39m: 	[31mPassword reset token has expired[39m
 [2024-10-17 08:59:05.037 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
 [2024-10-17 08:59:29.996 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:42:55.093 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:43:04.438 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:47:17.763 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:47:42.419 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:47:58.064 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:48:07.114 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:48:24.588 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:48:30.753 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:49:08.692 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:49:15.673 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:49:37.244 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:49:41.919 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:49:44.880 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:51:10.859 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:51:28.723 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:51:36.686 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:51:47.717 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:51:53.610 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:52:16.081 AM] [31merror[39m: 	[31mPlease insert Token [39m
+[2024-10-17 09:52:47.138 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:53:54.039 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:54:49.730 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:54:55.401 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:55:14.256 AM] [31merror[39m: 	[31mUser is not defined[39m
+[2024-10-17 09:55:39.845 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:55:45.108 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:55:49.123 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:56:04.601 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:56:18.398 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:56:27.701 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:56:33.622 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 09:59:05.101 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 09:59:37.326 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 10:03:47.151 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:03:54.333 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 10:04:00.455 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:04:16.357 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:06:44.296 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:07:04.962 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:07:45.140 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:08:29.471 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:09:08.862 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:09:41.038 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:09:52.138 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:11:06.935 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:11:26.298 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:12:23.541 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:12:49.943 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 10:13:40.823 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:31:59.703 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:33:01.636 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:33:54.048 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 01:34:32.670 PM] [31merror[39m: 	[31mPlease insert Token [39m
+[2024-10-17 01:36:32.287 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:37:03.065 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:37:16.819 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 01:38:00.613 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:38:34.738 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:39:13.830 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 01:43:35.728 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 01:43:39.346 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:47:21.917 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:47:47.308 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:48:15.546 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:48:41.740 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:49:09.534 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:49:13.230 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:49:32.715 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:49:58.679 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:50:15.345 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:51:04.364 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:51:20.028 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:54:52.335 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:55:07.684 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:56:06.412 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:56:30.837 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:57:56.748 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:58:15.292 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:59:08.233 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:59:18.814 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 02:59:39.694 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 02:59:43.884 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:00:01.549 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:00:19.898 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 03:00:30.223 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:00:47.250 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:01:02.910 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 03:01:08.384 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:01:15.241 PM] [31merror[39m: 	[31mError seeding database: plaintextPassword is not defined[39m
+[2024-10-17 03:01:15.245 PM] [31merror[39m: 	[31mThe `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.[39m
+[2024-10-17 03:01:26.250 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 03:01:49.349 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:01:55.129 PM] [31merror[39m: 	[31mError seeding database: firstname is not defined[39m
+[2024-10-17 03:02:05.675 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 03:02:13.374 PM] [32minfo[39m: 	[32mConnected to Mongodb..........[39m
+[2024-10-17 03:02:19.452 PM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 03:02:31.114 PM] [31merror[39m: 	[31mError seeding database: Operation `users.insertMany()` buffering timed out after 10000ms[39m
+[2024-10-17 03:02:41.276 PM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-17 03:02:41.283 PM] [32minfo[39m: 	[32mConnected to Mongodb..........[39m
+[2024-10-17 03:02:58.896 PM] [31merror[39m: 	[31mError seeding database: Operation `users.insertMany()` buffering timed out after 10000ms[39m
+[2024-10-17 03:03:38.304 PM] [31merror[39m: 	[31mError seeding database: Operation `users.insertMany()` buffering timed out after 10000ms[39m
+[2024-10-17 03:03:45.365 PM] [31merror[39m: 	[31mread ECONNRESET[39m
+[2024-10-17 03:04:00.006 PM] [32minfo[39m: 	[32mConnected to Mongodb..........[39m
+[2024-10-17 03:04:02.525 PM] [32minfo[39m: 	[32mDatabase seeded with Faker data![39m

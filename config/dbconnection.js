@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const logger = require("../utils/logger");
 require("dotenv").config();
 
-const connectDb = async (next) => {
+const connectDb = async () => {
   try {
     const connect = await mongoose.connect(process.env.MONGODB_URI);
 
@@ -10,7 +10,7 @@ const connectDb = async (next) => {
       `Db connected: ${connect.connection.host} ${connect.connection.name}`
     );
   } catch (error) {
-    next(error);
+    throw error;
   }
 };
 module.exports = connectDb;

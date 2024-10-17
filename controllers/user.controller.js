@@ -4,6 +4,7 @@ const CustomError = require("../utils/CustomError");
 const logger = require("../utils/logger");
 const jwt = require("jsonwebtoken");
 const sendMail = require("../utils/sendMail");
+const User = require("../models/user");
 const signUpUser = async (req, res, next) => {
   try {
     const response = await userService.register({
@@ -91,4 +92,27 @@ const resetPassword = async (req, res, next) => {
   }
 };
 
-module.exports = { signUpUser, signInUser, forgotPassword, resetPassword };
+const currentUser = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      throw new CustomError("User not found", 404);
+    }
+
+    return res.json({
+      message: "Here you are!🚀",
+      user: user,
+    });
+  } catch (error) {
+    next(error);
+    logger.error(error.message);
+  }
+};
+
+module.exports = {
+  currentUser,
+  signUpUser,
+  signInUser,
+  forgotPassword,
+  resetPassword,
+};
