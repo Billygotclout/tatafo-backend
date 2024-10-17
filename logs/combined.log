@@ -143,3 +143,5 @@
 [2024-10-17 08:58:01.553 AM] [31merror[39m: 	[31mOperation `users.findOne()` buffering timed out after 10000ms[39m
 [2024-10-17 08:58:09.869 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
 [2024-10-17 08:58:14.310 AM] [31merror[39m: 	[31mPassword reset token has expired[39m
+[2024-10-17 08:59:05.037 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-17 08:59:29.996 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
