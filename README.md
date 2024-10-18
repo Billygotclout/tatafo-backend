@@ -12,7 +12,7 @@ Tatafo is a Nigerian chat application built using Node.js, Express, and MongoDB.
 ### Private Messaging
 - **One-on-One Messaging**: Start a private conversation with any other user.
   
-### Media Sharing
+### Media Sharing - Future Updates
 - **Send Media**: Exchange videos, images, and documents between individual users.
 
 ### Group Chat
@@ -20,9 +20,6 @@ Tatafo is a Nigerian chat application built using Node.js, Express, and MongoDB.
 
 ### End-to-End Encryption
 - **Secure Communication**: All messages are encrypted, ensuring privacy and security.
-
-### Message Indicators
-- **Read Receipts**: Know when the recipient has read your message with real-time message status indicators.
 
 ### Push Notifications
 - **Instant Alerts**: Receive push notifications whenever a new message is sent or received, even when you're not using the app.
