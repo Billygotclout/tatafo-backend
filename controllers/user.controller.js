@@ -1,10 +1,10 @@
-const userService = require("../services/user.service");
-const userRepository = require("../data/user.repository");
 const CustomError = require("../utils/CustomError");
 const logger = require("../utils/logger");
 const jwt = require("jsonwebtoken");
 const sendMail = require("../utils/sendMail");
 const User = require("../models/user");
+const { userService } = require("../services/index.service");
+const { userRepository } = require("../data");
 const signUpUser = async (req, res, next) => {
   try {
     const response = await userService.register({

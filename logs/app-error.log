@@ -25,3 +25,5 @@
 [2024-10-17 03:02:58.896 PM] [31merror[39m: 	[31mError seeding database: Operation `users.insertMany()` buffering timed out after 10000ms[39m
 [2024-10-17 03:03:38.304 PM] [31merror[39m: 	[31mError seeding database: Operation `users.insertMany()` buffering timed out after 10000ms[39m
 [2024-10-17 03:03:45.365 PM] [31merror[39m: 	[31mread ECONNRESET[39m
+[2024-10-17 03:13:10.361 PM] [31merror[39m: 	[31mPlease insert Token [39m
+[2024-10-18 08:08:59.852 AM] [31merror[39m: 	[31mPlease insert Token [39m

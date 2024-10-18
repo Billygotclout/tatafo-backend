@@ -1,4 +1,6 @@
+const { messageRepository, userRepository } = require("../data");
 const Message = require("../models/messages");
+const User = require("../models/user");
 
 exports.toSendMessage = async ({ receiverId, message, userId }) => {
   try {
@@ -14,6 +16,27 @@ exports.toSendMessage = async ({ receiverId, message, userId }) => {
       path: "senderId receiverId",
       model: "User",
     });
+  } catch (error) {
+    throw error;
+  }
+};
+exports.getUsers = async () => {
+  const users = await userRepository.getAll(
+    {},
+    "firstname lastname username email"
+  );
+  return users;
+};
+exports.messageHistory = async ({ senderId, receiverId }) => {
+  try {
+    const messages = await Message.find({
+      $or: [
+        { senderId: senderId, receiverId: receiverId },
+        { senderId: receiverId, receiverId: senderId },
+      ],
+    }).sort({ createdAt: 1 });
+
+    return messages;
   } catch (error) {
     throw error;
   }

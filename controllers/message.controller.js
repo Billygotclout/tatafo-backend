@@ -1,4 +1,4 @@
-const messageService = require("../services/messages.service");
+const { messageService } = require("../services/index.service");
 const pusher = require("../utils/pusher");
 
 const sendMessage = async (req, res, next) => {
@@ -21,5 +21,26 @@ const sendMessage = async (req, res, next) => {
     next(error);
   }
 };
+const getAllUsersToChat = async (req, res, next) => {
+  try {
+    const response = await messageService.getUsers();
 
-module.exports = { sendMessage };
+    return res.json(response);
+  } catch (error) {
+    next(error);
+  }
+};
+const getConversationHistory = async (req, res, next) => {
+  const { senderId, receiverId } = req.params;
+
+  try {
+    const response = await messageService.messageHistory({
+      senderId: senderId,
+      receiverId: receiverId,
+    });
+    return res.json(response);
+  } catch (error) {
+    next(error);
+  }
+};
+module.exports = { sendMessage, getAllUsersToChat, getConversationHistory };
