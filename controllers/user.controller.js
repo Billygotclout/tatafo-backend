@@ -79,7 +79,7 @@ const resetPassword = async (req, res, next) => {
   try {
     const user = await userRepository.getByEmail(req.body.email);
     await userService.passwordChange({
-      token: req.params.token,
+      token: req.body.token,
       password: req.body.password,
     });
 
