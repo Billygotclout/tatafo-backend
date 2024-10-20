@@ -8,6 +8,7 @@ require("dotenv").config();
 const port = process.env.PORT || 3001;
 const app = express();
 const routes = require("./routes/index.routes");
+const errorHandler = require("./middleware/errorHandler");
 connectDb();
 
 app.use(express.json());
@@ -28,6 +29,8 @@ app.get("/", (req, res) => {
   res.send("API is running");
 });
 app.use("/api", routes);
+
+app.use(errorHandler);
 app.listen(port, () => {
   logger.info(`Server is listening at http://localhost:${port}`);
 });
