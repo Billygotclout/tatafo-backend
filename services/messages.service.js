@@ -12,10 +12,7 @@ exports.toSendMessage = async ({ receiverId, message, userId }) => {
 
     await newMessage.save();
 
-    return newMessage.populate({
-      path: "senderId receiverId",
-      model: "User",
-    });
+    return newMessage;
   } catch (error) {
     throw error;
   }
