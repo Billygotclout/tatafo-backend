@@ -10,7 +10,7 @@ const sendMessage = async (req, res, next) => {
       message: message,
       receiverId: receiverId,
     });
-    pusher.trigger(`private-chat-${receiverId}`, "new-message", {
+    pusher.trigger(`chat-${receiverId}`, "new-message", {
       message,
     });
     res.json({
