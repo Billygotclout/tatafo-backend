@@ -10,9 +10,12 @@ const sendMessage = async (req, res, next) => {
       message: message,
       receiverId: receiverId,
     });
-    await pusher.trigger(`chat-${receiverId}`, "new-message", {
-      response,
-    });
+    // Trigger for both sender and receiver
+    await Promise.all([
+      pusher.trigger(`chat-${receiverId}`, "new-message", response),
+      pusher.trigger(`chat-${req.user.id}`, "new-message", response),
+    ]);
+
     return res.json({
       message: "Sent!🚀",
       data: response,
