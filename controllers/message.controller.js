@@ -24,7 +24,7 @@ const sendMessage = async (req, res, next) => {
 const pusherAuth = async (req, res, next) => {
   try {
     const { socket_id, channel_name } = req.body;
-    const auth = pusher.authenticate(socket_id, channel_name);
+    const auth = pusher.authorizeChannel(socket_id, channel_name);
     res.send(auth);
   } catch (error) {
     next(error);
