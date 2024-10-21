@@ -5,6 +5,7 @@ const {
   forgotPassword,
   resetPassword,
   currentUser,
+  getUserById,
 } = require("../controllers/user.controller");
 const validateToken = require("../middleware/validateToken");
 
@@ -15,4 +16,5 @@ router.route("/signup").post(signUpUser);
 router.route("/signin").post(signInUser);
 router.route("/forgot-password").post(forgotPassword);
 router.route("/reset-password").post(resetPassword);
+router.route("/user/:id").get(getUserById);
 module.exports = router;

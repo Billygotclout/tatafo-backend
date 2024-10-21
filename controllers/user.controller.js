@@ -109,10 +109,25 @@ const currentUser = async (req, res, next) => {
   }
 };
 
+const getUserById = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.params.id);
+
+    if (!user) {
+      throw new CustomError("User not found", 404);
+    }
+
+    res.json(user);
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   currentUser,
   signUpUser,
   signInUser,
   forgotPassword,
   resetPassword,
+  getUserById,
 };

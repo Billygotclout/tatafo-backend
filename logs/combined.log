@@ -430,3 +430,9 @@
 [2024-10-18 09:59:46.897 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-02.wjhdnzn.mongodb.net tatafo[39m
 [2024-10-18 10:00:10.193 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
 [2024-10-18 10:00:17.082 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-01.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-20 08:12:39.288 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-20 08:13:00.260 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-20 08:13:27.206 AM] [31merror[39m: 	[31mInvalid Username or Password[39m
+[2024-10-21 10:19:43.154 AM] [32minfo[39m: 	[32mServer is listening at http://localhost:3000[39m
+[2024-10-21 10:19:45.664 AM] [32minfo[39m: 	[32mDb connected: ac-gzxbtdy-shard-00-00.wjhdnzn.mongodb.net tatafo[39m
+[2024-10-21 10:19:55.964 AM] [31merror[39m: 	[31mInvalid Username or Password[39m
