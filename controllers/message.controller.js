@@ -21,6 +21,15 @@ const sendMessage = async (req, res, next) => {
     next(error);
   }
 };
+const pusherAuth = async (req, res, next) => {
+  try {
+    const { socket_id, channel_name } = req.body;
+    const auth = pusher.authenticate(socket_id, channel_name);
+    res.send(auth);
+  } catch (error) {
+    next(error);
+  }
+};
 const getAllUsersToChat = async (req, res, next) => {
   try {
     const response = await messageService.getUsers(req.user.id);
@@ -43,4 +52,9 @@ const getConversationHistory = async (req, res, next) => {
     next(error);
   }
 };
-module.exports = { sendMessage, getAllUsersToChat, getConversationHistory };
+module.exports = {
+  sendMessage,
+  getAllUsersToChat,
+  getConversationHistory,
+  pusherAuth,
+};
