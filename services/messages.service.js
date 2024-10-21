@@ -20,9 +20,9 @@ exports.toSendMessage = async ({ receiverId, message, userId }) => {
     throw error;
   }
 };
-exports.getUsers = async () => {
-  const users = await userRepository.getAll(
-    {},
+exports.getUsers = async (userId) => {
+  const users = await User.find(
+    { _id: { $ne: userId } },
     "firstname lastname username email"
   );
   return users;

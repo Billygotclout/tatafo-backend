@@ -23,7 +23,7 @@ const sendMessage = async (req, res, next) => {
 };
 const getAllUsersToChat = async (req, res, next) => {
   try {
-    const response = await messageService.getUsers();
+    const response = await messageService.getUsers(req.user.id);
 
     return res.json(response);
   } catch (error) {
