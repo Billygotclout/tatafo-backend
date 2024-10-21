@@ -11,9 +11,9 @@ const sendMessage = async (req, res, next) => {
       receiverId: receiverId,
     });
     pusher.trigger(`chat-${receiverId}`, "new-message", {
-      message,
+      response,
     });
-    res.json({
+    return res.json({
       message: "Sent!🚀",
       data: response,
     });
