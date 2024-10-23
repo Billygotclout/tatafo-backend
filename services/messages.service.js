@@ -22,6 +22,7 @@ exports.getUsers = async (userId) => {
     { _id: { $ne: userId } },
     "firstname lastname username email"
   );
+
   return users;
 };
 exports.messageHistory = async ({ senderId, receiverId }) => {

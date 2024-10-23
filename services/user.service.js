@@ -32,6 +32,10 @@ exports.register = async ({
 
 exports.login = async ({ email, password }) => {
   const user = await userRepository.getByEmail(email);
+
+  if (!user) {
+    throw new CustomError("User doesn't exist, please register", 404);
+  }
   const correctLogin =
     user.email && (await bcrypt.compare(password, user.password));
   if (!correctLogin) {
@@ -42,6 +46,9 @@ exports.login = async ({ email, password }) => {
 
 exports.passwordRecovery = async ({ email }) => {
   const user = await userRepository.getByEmail(email);
+  if (!user) {
+    throw new CustomError("User doesn't exist, please register", 404);
+  }
   const token = crypto.randomBytes(20).toString("hex");
   user.resetPasswordToken = token;
   user.resetPasswordExpires = Date.now() + 3780000;
@@ -53,13 +60,12 @@ exports.passwordChange = async ({ token, password }) => {
     const user = await userRepository.getOne({
       resetPasswordToken: token,
     });
-
     if (!user) {
-      throw new CustomError("Password reset token is invalid/Expired", 400);
+      throw new CustomError("User doesn't exist, please register", 404);
     }
 
     if (user.resetPasswordExpires < Date.now() + 3600000) {
-      throw new CustomError("Password reset token has expired", 400);
+      throw new CustomError("Password reset token is invalid/expired", 400);
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
